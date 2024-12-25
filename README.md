@@ -1,51 +1,51 @@
-ECG Normal-LBBB Classification
 
-Overview
 
-This repository provides a framework for classifying Electrocardiogram (ECG) signals into two categories:
+### Overview
 
-Normal: Indicates a healthy heart rhythm.
+# This repository provides a framework for classifying Electrocardiogram (ECG) signals into two categories:
 
-Left Bundle Branch Block (LBBB): A type of heart block affecting the left bundle branch.
+# Normal: Indicates a healthy heart rhythm.
 
-The project leverages signal processing techniques and machine learning to achieve accurate classification. It includes tools for preprocessing ECG data, feature extraction, model training, and evaluation.
+# Left Bundle Branch Block (LBBB): A type of heart block affecting the left bundle branch.
 
-Features
+# The project leverages signal processing techniques and machine learning to achieve accurate classification. It includes tools for preprocessing ECG data, feature extraction, model training, and evaluation.
 
-Data Preprocessing: Includes the following steps:
+### Features
 
-Mean removal.
+# Data Preprocessing: Includes the following steps:
 
-Bandpass filter using a Butterworth filter (0.5 to 40 Hz).
+# Mean removal.
 
-Normalization to the range [-1, 1].
+# Bandpass filter using a Butterworth filter (0.5 to 40 Hz).
 
-Feature Extraction: Wavelet transform with level 2 decomposition using Daubechies (DB3) wavelets.
+# Normalization to the range [-1, 1].
 
-Machine Learning Models: Supports training and evaluation of classifiers such as:
+# Feature Extraction: Wavelet transform with level 2 decomposition using Daubechies (DB3) wavelets.
 
-Support Vector Machines (SVM).
+# Machine Learning Models: Supports training and evaluation of classifiers such as:
 
-k-Nearest Neighbors (KNN).
+# Support Vector Machines (SVM).
 
-Random Forest.
+# k-Nearest Neighbors (KNN).
 
-Visualization: Provides plots of ECG signals and classification results.
+# Random Forest.
 
-User-Friendly Interface: Built with streamlit for an interactive and easy-to-use UI.
+# Visualization: Provides plots of ECG signals and classification results.
 
-Installation
+# User-Friendly Interface: Built with streamlit for an interactive and easy-to-use UI.
 
-Prerequisites
+### Installation
 
-Ensure you have the following installed:
+# Prerequisites
 
-Python 3.12+
+# Ensure you have the following installed:
 
-pip
+# Python 3.12+
 
-Clone the Repository
-$ git clone (https://github.com/Mohammed-Gadd/ECG-Normal-LBBB-classification.git)
+# pip
+
+## Clone the Repository
+# $ git clone (https://github.com/Mohammed-Gadd/ECG-Normal-LBBB-classification.git)
 
 
 
